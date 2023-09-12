@@ -5,7 +5,7 @@ class definiton for square shape object
 
 
 class Square():
-    """class square define geometery shape  square"""
+    """class square define geometry  square"""
     width = 0
     height = 0
 
@@ -23,13 +23,13 @@ class Square():
         return ((self.width * 2) + (self.height * 2))
 
     def __str__(self):
-        """stdio representee"""
+        """stdout representee"""
         return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
     """test run square model"""
-    s = Square(width=12, height=12)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.perimeter_of_square())
