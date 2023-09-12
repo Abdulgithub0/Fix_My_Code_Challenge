@@ -20,7 +20,7 @@ class Square():
 
     def perimeter_of_square(self):
         """find the perimeter of a square"""
-        return ((self.width * 4)) #(self.height * 2))
+        return ((self.width * 2) + (self.height * 2))
 
     def __str__(self):
         """stdio representee"""
@@ -29,7 +29,7 @@ class Square():
 
 if __name__ == "__main__":
     """test run square model"""
-    s = Square(width=12, height=9)
+    s = Square(width=12, height=12)
     print(s)
     print(s.area_of_my_square())
     print(s.perimeter_of_square())
