@@ -21,12 +21,12 @@ class square():
         return (self.width * 4)
 
     def __str__(self):
-        """stdio invoker"""
+        """stdio representee"""
         return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
-
+    """test run square model"""
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
