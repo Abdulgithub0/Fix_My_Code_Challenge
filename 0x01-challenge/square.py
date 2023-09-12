@@ -8,6 +8,7 @@ class square():
     height = 0
 
     def __init__(self, *args, **kwargs):
+        """constructor the class Square instances"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -16,9 +17,11 @@ class square():
         return self.width * self.height
 
     def PermiterOfMySquare(self):
-        return (self.width * 2) + (self.height * 2)
+        """find the perimeter of a square"""
+        return (self.width * 4)
 
     def __str__(self):
+        """stdio invoker"""
         return "{}/{}".format(self.width, self.height)
 
 
