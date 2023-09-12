@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""class definiton for square shape object"""
+"""
+class definiton for square shape object
+"""
 
 
 class square():
@@ -30,4 +32,4 @@ if __name__ == "__main__":
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
-    print(s.Perimeter_of_square())
+    print(s.perimeter_of_square())
