@@ -20,7 +20,7 @@ class Square():
 
     def perimeter_of_square(self):
         """find the perimeter of a square"""
-        return ((self.width * 2) + (self.height * 2))
+        return ((self.width * 4)) #(self.height * 2))
 
     def __str__(self):
         """stdio representee"""
